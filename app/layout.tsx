@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
+      <body suppressHydrationWarning={true}>
         <SideNav />
         <div className="p-4 mt-14">{children}</div>
       </body>
