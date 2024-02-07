@@ -45,7 +45,7 @@ export default function SideNav() {
   return (
     <>
       {/* Navbar */}
-      <nav className="fixed top-0 z-50 w-full bg-white border-b border-gray-200 dark:bg-gray-800 dark:border-gray-700">
+      <nav className="fixed top-0 z-50 w-full bg-gray-800 border-gray-700">
         <div className="px-3 py-3 lg:px-5 lg:pl-3">
           <div className="flex items-center justify-between">
             <div className="flex items-center justify-start rtl:justify-end">
@@ -54,7 +54,7 @@ export default function SideNav() {
                 data-drawer-toggle="logo-sidebar"
                 aria-controls="logo-sidebar"
                 type="button"
-                className="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                className="inline-flex items-center p-2 text-sm  rounded-lg  focus:outline-none focus:ring-2  text-gray-400 hover:bg-gray-700 focus:ring-gray-600"
                 onClick={toggleSidebar}
               >
                 <span className="sr-only">Open sidebar</span>
@@ -74,7 +74,7 @@ export default function SideNav() {
               </button>
               <a href="/" className="flex ms-2 md:me-24">
                 <Image src={logo} alt="Sakai Logo" className="h-9 w-9 me-3" />
-                <span className="self-center text-xl font-semibold sm:text-2xl whitespace-nowrap dark:text-white">
+                <span className="self-center text-xl font-semibold sm:text-2xl whitespace-nowrap text-white">
                   Smart Sales
                 </span>
               </a>
@@ -84,7 +84,7 @@ export default function SideNav() {
                 <div>
                   <button
                     type="button"
-                    className="flex text-sm bg-gray-800 rounded-full focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600"
+                    className="flex text-sm bg-gray-800 rounded-full focus:ring-4  focus:ring-gray-600"
                     aria-expanded="false"
                     data-dropdown-toggle="dropdown-user"
                     onClick={toggleUserMenu}
@@ -99,18 +99,15 @@ export default function SideNav() {
                 </div>
                 {userMenuOpen && (
                   <div
-                    className="absolute right-0 top-8 z-50 my-4 text-base list-none bg-white divide-y divide-gray-100 rounded shadow dark:bg-gray-700 dark:divide-gray-600"
+                    className="absolute right-0 top-8 z-50 my-4 text-base list-none  divide-y rounded shadow bg-gray-700 divide-gray-600"
                     id="dropdown-user"
                   >
                     <div className="px-4 py-3" role="none">
-                      <p
-                        className="text-sm text-gray-900 dark:text-white"
-                        role="none"
-                      >
+                      <p className="text-sm  text-white" role="none">
                         Neil Sims
                       </p>
                       <p
-                        className="text-sm font-medium text-gray-900 truncate dark:text-gray-300"
+                        className="text-sm font-medium  truncate text-gray-300"
                         role="none"
                       >
                         neil.sims@flowbite.com
@@ -120,7 +117,7 @@ export default function SideNav() {
                       <li>
                         <a
                           href="#"
-                          className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-600 dark:hover:text-white"
+                          className="block px-4 py-2 text-sm  text-gray-300 hover:bg-gray-600 hover:text-white"
                           role="menuitem"
                         >
                           Dashboard
@@ -129,7 +126,7 @@ export default function SideNav() {
                       <li>
                         <a
                           href="#"
-                          className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-600 dark:hover:text-white"
+                          className="block px-4 py-2 text-sm  text-gray-300 hover:bg-gray-600 hover:text-white"
                           role="menuitem"
                         >
                           Settings
@@ -138,7 +135,7 @@ export default function SideNav() {
                       <li>
                         <a
                           href="#"
-                          className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-600 dark:hover:text-white"
+                          className="block px-4 py-2 text-sm  text-gray-300 hover:bg-gray-600 hover:text-white"
                           role="menuitem"
                         >
                           Earnings
@@ -147,7 +144,7 @@ export default function SideNav() {
                       <li>
                         <a
                           href="#"
-                          className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-600 dark:hover:text-white"
+                          className="block px-4 py-2 text-sm  text-gray-300 hover:bg-gray-600 hover:text-white"
                           role="menuitem"
                         >
                           Sign out
@@ -167,21 +164,21 @@ export default function SideNav() {
         id="logo-sidebar"
         className={`fixed top-0 left-0 z-40 w-64 h-screen pt-20 transition-transform ${
           sidebarOpen ? "translate-x-0" : "-translate-x-full"
-        } bg-white border-r border-gray-200  dark:bg-gray-800 dark:border-gray-700`}
+        } border-r   bg-gray-800 border-gray-700`}
         aria-label="Sidebar"
       >
-        <div className="h-full px-3 pb-4 overflow-y-auto bg-white dark:bg-gray-800">
+        <div className="h-full px-3 pb-4 overflow-y-auto bg-gray-800">
           <ul className="space-y-2 font-medium">
             <li>
               <button
                 type="button"
-                className="flex items-center w-full p-2 text-base text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                className="flex items-center w-full p-2 text-base transition duration-75 rounded-lg group  text-white hover:bg-gray-700"
                 aria-controls="dropdown-example"
                 data-collapse-toggle="dropdown-example"
                 onClick={() => setDropdownOpen2(!isDropdownOpen2)}
               >
                 <svg
-                  className="w-5 h-5 text-gray-800 dark:text-white"
+                  className="w-5 h-5 text-white"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="currentColor"
@@ -216,7 +213,7 @@ export default function SideNav() {
                 <li>
                   <a
                     href="/dashboard/complaint"
-                    className="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                    className="flex items-center w-full p-2  transition duration-75 rounded-lg pl-11 group text-white hover:bg-gray-700"
                   >
                     Complaints
                   </a>
@@ -224,7 +221,7 @@ export default function SideNav() {
                 <li>
                   <a
                     href="/dashboard/survey"
-                    className="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                    className="flex items-center w-full p-2  transition duration-75 rounded-lg pl-11 group text-white hover:bg-gray-700"
                   >
                     Survey
                   </a>
@@ -234,13 +231,13 @@ export default function SideNav() {
             <li>
               <button
                 type="button"
-                className="flex items-center w-full p-2 text-base text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                className="flex items-center w-full p-2 text-base  transition duration-75 rounded-lg group text-white hover:bg-gray-700"
                 aria-controls="dropdown-example"
                 data-collapse-toggle="dropdown-example"
                 onClick={() => setDropdownOpen1(!isDropdownOpen1)}
               >
                 <svg
-                  className="w-6 h-6 text-gray-800 dark:text-white"
+                  className="w-6 h-6 text-white"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="currentColor"
@@ -284,7 +281,7 @@ export default function SideNav() {
                 <li>
                   <a
                     href="/formulir/serah-terima"
-                    className="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                    className="flex items-center w-full p-2  transition duration-75 rounded-lg pl-11 group  text-white hover:bg-gray-700"
                   >
                     Serah Terima
                   </a>
@@ -292,7 +289,7 @@ export default function SideNav() {
                 <li>
                   <a
                     href="/formulir/claim-complaint"
-                    className="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                    className="flex items-center w-full p-2  transition duration-75 rounded-lg pl-11 group  text-white hover:bg-gray-700"
                   >
                     Claim Complaint
                   </a>
@@ -300,7 +297,7 @@ export default function SideNav() {
                 <li>
                   <a
                     href="/formulir/survey"
-                    className="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                    className="flex items-center w-full p-2  transition duration-75 rounded-lg pl-11 group  text-white hover:bg-gray-700"
                   >
                     Survey
                   </a>
@@ -311,13 +308,13 @@ export default function SideNav() {
             <li>
               <button
                 type="button"
-                className="flex items-center w-full p-2 text-base text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                className="flex items-center w-full p-2 text-base transition duration-75 rounded-lg group  text-white hover:bg-gray-700"
                 aria-controls="dropdown-example"
                 data-collapse-toggle="dropdown-example"
                 onClick={() => setDropdownOpen3(!isDropdownOpen3)}
               >
                 <svg
-                  className="w-6 h-6 text-gray-800 dark:text-white"
+                  className="w-6 h-6  text-white"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="currentColor"
@@ -352,7 +349,7 @@ export default function SideNav() {
                 <li>
                   <a
                     href="/master-data/data-unit"
-                    className="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                    className="flex items-center w-full p-2 transition duration-75 rounded-lg pl-11 group  text-white hover:bg-gray-700"
                   >
                     Data Unit
                   </a>
@@ -360,7 +357,7 @@ export default function SideNav() {
                 <li>
                   <a
                     href="/master-data/spare-part"
-                    className="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                    className="flex items-center w-full p-2 transition duration-75 rounded-lg pl-11 group  text-white hover:bg-gray-700"
                   >
                     Spare Part
                   </a>
