@@ -220,10 +220,10 @@ export default function SideNav() {
                 </li>
                 <li>
                   <a
-                    href="/dashboard/survey"
+                    href="/dashboard/kuesioner"
                     className="flex items-center w-full p-2  transition duration-75 rounded-lg pl-11 group text-white hover:bg-gray-700"
                   >
-                    Survey
+                    Kuesioner
                   </a>
                 </li>
               </ul>
@@ -296,10 +296,10 @@ export default function SideNav() {
                 </li>
                 <li>
                   <a
-                    href="/formulir/survey"
+                    href="/formulir/kuesioner"
                     className="flex items-center w-full p-2  transition duration-75 rounded-lg pl-11 group  text-white hover:bg-gray-700"
                   >
-                    Survey
+                    Kuesioner
                   </a>
                 </li>
               </ul>
