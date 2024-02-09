@@ -1,6 +1,21 @@
+"use client";
+
 import QuestionWithOptions from "./QuetionOptions";
+import { toast } from "react-toastify";
 
 export default function FormKuesioner() {
+  const handleSubmit = () => {
+    toast.success("Terima kasih telah mengisi kuesioner Kami!", {
+      position: "top-center",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "colored",
+    });
+  };
   return (
     <>
       <div className="container mx-auto px-4 md:max-w-3xl">
@@ -72,6 +87,7 @@ export default function FormKuesioner() {
               <button
                 type="button"
                 className="text-white text-end bg-gray-800 hover:bg-gray-900 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 focus:outline-none"
+                onClick={handleSubmit}
               >
                 Submit
               </button>

@@ -1,5 +1,7 @@
 "use client";
 
+import { toast } from "react-toastify";
+
 export default function FormSerahTerima() {
   const models = ["SV526D", "SV526T", "SV526DF", "SV526TF", "TS206"];
   const island = [
@@ -15,6 +17,19 @@ export default function FormSerahTerima() {
   ];
 
   const sector = ["Mining", "Road", "Plantation", "Rental"];
+
+  const handleSubmit = () => {
+    toast.success("Terima kasih telah mengisi Formulir Serah Terima!", {
+      position: "top-center",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "colored",
+    });
+  };
 
   return (
     <>
@@ -210,6 +225,7 @@ export default function FormSerahTerima() {
           <button
             type="button"
             className="text-white text-end bg-gray-800 hover:bg-gray-900 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 focus:outline-none"
+            onClick={handleSubmit}
           >
             Submit
           </button>
