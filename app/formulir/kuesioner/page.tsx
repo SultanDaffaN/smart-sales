@@ -4,7 +4,7 @@ export default function FormKuesioner() {
   return (
     <>
       <div className="container mx-auto px-4 md:max-w-3xl">
-        <h1 className="text-3xl text-center font-bold text-black mb-8 mt-12">
+        <h1 className="text-3xl text-center font-bold text-black mb-8 mt-10">
           Kuesioner Kepuasan Pelanggan
         </h1>
         <p>
