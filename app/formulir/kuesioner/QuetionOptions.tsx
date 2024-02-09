@@ -11,7 +11,7 @@ const QuestionWithOptions: React.FC<QuestionWithOptionsProps> = ({
 }) => {
   return (
     <div>
-      <h3 className="text-lg font-semibold text-black">{question}</h3>
+      <h3 className="text-lg text-black">{question}</h3>
       <div className="space-x-4 mt-2 flex flex-col space-y-3 md:space-y-0 md:flex-row md:space-x-8">
         {options.map((option, index) => (
           <label key={index} className="inline-flex items-center ml-4">
