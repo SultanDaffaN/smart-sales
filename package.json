@@ -9,8 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@highcharts/map-collection": "^2.1.0",
+    "@types/proj4": "^2.5.5",
     "chart.js": "^4.4.1",
+    "highcharts": "^11.3.0",
+    "highcharts-react-official": "^3.2.1",
     "next": "14.1.0",
+    "proj4": "^2.10.0",
     "react": "^18",
     "react-chartjs-2": "^5.2.0",
     "react-dom": "^18",

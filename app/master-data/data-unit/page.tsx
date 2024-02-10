@@ -5,7 +5,7 @@ export default function DataUnit() {
         Master Data Unit
       </h1>
 
-      <div className="flex justify-end mb-5">
+      <div className="flex justify-end mb-5 px-6">
         <div className="relative">
           <div className="absolute inset-y-0 left-0 rtl:inset-r-0 rtl:right-0 flex items-center ps-3 pointer-events-none">
             <svg
@@ -31,259 +31,235 @@ export default function DataUnit() {
         </div>
       </div>
 
-      <div className="relative overflow-x-auto shadow-md sm:rounded-md">
-        <table className="w-full text-sm text-left rtl:text-right text-white">
-          <thead className="bg-gray-800">
-            <tr>
-              <th scope="col" className="px-6 py-3">
-                Model/Tipe
-              </th>
-              <th scope="col" className="px-6 py-3">
-                Serial Number
-              </th>
-              <th scope="col" className="px-6 py-3">
-                Engine Number
-              </th>
-              <th scope="col" className="px-6 py-3">
-                Distributor
-              </th>
-              <th scope="col" className="px-6 py-3">
-                Dealer
-              </th>
-              <th scope="col" className="px-6 py-3">
-                Delivery Date
-              </th>
-              <th scope="col" className="px-6 py-3">
-                Customer
-              </th>
-              <th scope="col" className="px-6 py-3">
-                Island
-              </th>
-              <th scope="col" className="px-6 py-3">
-                Province
-              </th>
-              <th scope="col" className="px-6 py-3">
-                Sector
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr className="bg-white border-b  hover:bg-gray-50">
-              <th className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                SV526D
-              </th>
-              <td className="px-6 py-4 text-gray-900">6SV35-10481</td>
-              <td className="px-6 py-4 text-gray-900">4BG1-111302</td>
-              <td className="px-6 py-4 text-gray-900">EP</td>
-              <td className="px-6 py-4 text-gray-900">EQUIPINDO PERKASA</td>
-              <td className="px-6 py-4 text-gray-900">01-Feb-2016</td>
-              <td className="px-6 py-4 text-gray-900">PT SENGGIGILANG</td>
-              <td className="px-6 py-4 text-gray-900">JAVA</td>
-              <td className="px-6 py-4 text-gray-900">SUMATERA</td>
-              <td className="px-6 py-4 text-gray-900">ROAD</td>
-            </tr>
-            <tr className="bg-white border-b  hover:bg-gray-50">
-              <th className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                SV526D
-              </th>
-              <td className="px-6 py-4 text-gray-900">6SV35-10481</td>
-              <td className="px-6 py-4 text-gray-900">4BG1-111302</td>
-              <td className="px-6 py-4 text-gray-900">EP</td>
-              <td className="px-6 py-4 text-gray-900">EQUIPINDO PERKASA</td>
-              <td className="px-6 py-4 text-gray-900">01-Feb-2016</td>
-              <td className="px-6 py-4 text-gray-900">PT SENGGIGILANG</td>
-              <td className="px-6 py-4 text-gray-900">JAVA</td>
-              <td className="px-6 py-4 text-gray-900">SUMATERA</td>
-              <td className="px-6 py-4 text-gray-900">ROAD</td>
-            </tr>
-            <tr className="bg-white border-b  hover:bg-gray-50">
-              <th className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                SV526D
-              </th>
-              <td className="px-6 py-4 text-gray-900">6SV35-10481</td>
-              <td className="px-6 py-4 text-gray-900">4BG1-111302</td>
-              <td className="px-6 py-4 text-gray-900">EP</td>
-              <td className="px-6 py-4 text-gray-900">EQUIPINDO PERKASA</td>
-              <td className="px-6 py-4 text-gray-900">01-Feb-2016</td>
-              <td className="px-6 py-4 text-gray-900">PT SENGGIGILANG</td>
-              <td className="px-6 py-4 text-gray-900">JAVA</td>
-              <td className="px-6 py-4 text-gray-900">SUMATERA</td>
-              <td className="px-6 py-4 text-gray-900">ROAD</td>
-            </tr>
-            <tr className="bg-white border-b  hover:bg-gray-50">
-              <th className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                SV526D
-              </th>
-              <td className="px-6 py-4 text-gray-900">6SV35-10481</td>
-              <td className="px-6 py-4 text-gray-900">4BG1-111302</td>
-              <td className="px-6 py-4 text-gray-900">EP</td>
-              <td className="px-6 py-4 text-gray-900">EQUIPINDO PERKASA</td>
-              <td className="px-6 py-4 text-gray-900">01-Feb-2016</td>
-              <td className="px-6 py-4 text-gray-900">PT SENGGIGILANG</td>
-              <td className="px-6 py-4 text-gray-900">JAVA</td>
-              <td className="px-6 py-4 text-gray-900">SUMATERA</td>
-              <td className="px-6 py-4 text-gray-900">ROAD</td>
-            </tr>
-            <tr className="bg-white border-b  hover:bg-gray-50">
-              <th className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                SV526D
-              </th>
-              <td className="px-6 py-4 text-gray-900">6SV35-10481</td>
-              <td className="px-6 py-4 text-gray-900">4BG1-111302</td>
-              <td className="px-6 py-4 text-gray-900">EP</td>
-              <td className="px-6 py-4 text-gray-900">EQUIPINDO PERKASA</td>
-              <td className="px-6 py-4 text-gray-900">01-Feb-2016</td>
-              <td className="px-6 py-4 text-gray-900">PT SENGGIGILANG</td>
-              <td className="px-6 py-4 text-gray-900">JAVA</td>
-              <td className="px-6 py-4 text-gray-900">SUMATERA</td>
-              <td className="px-6 py-4 text-gray-900">ROAD</td>
-            </tr>
-            <tr className="bg-white border-b  hover:bg-gray-50">
-              <th className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                SV526D
-              </th>
-              <td className="px-6 py-4 text-gray-900">6SV35-10481</td>
-              <td className="px-6 py-4 text-gray-900">4BG1-111302</td>
-              <td className="px-6 py-4 text-gray-900">EP</td>
-              <td className="px-6 py-4 text-gray-900">EQUIPINDO PERKASA</td>
-              <td className="px-6 py-4 text-gray-900">01-Feb-2016</td>
-              <td className="px-6 py-4 text-gray-900">PT SENGGIGILANG</td>
-              <td className="px-6 py-4 text-gray-900">JAVA</td>
-              <td className="px-6 py-4 text-gray-900">SUMATERA</td>
-              <td className="px-6 py-4 text-gray-900">ROAD</td>
-            </tr>
-            <tr className="bg-white border-b  hover:bg-gray-50">
-              <th className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                SV526D
-              </th>
-              <td className="px-6 py-4 text-gray-900">6SV35-10481</td>
-              <td className="px-6 py-4 text-gray-900">4BG1-111302</td>
-              <td className="px-6 py-4 text-gray-900">EP</td>
-              <td className="px-6 py-4 text-gray-900">EQUIPINDO PERKASA</td>
-              <td className="px-6 py-4 text-gray-900">01-Feb-2016</td>
-              <td className="px-6 py-4 text-gray-900">PT SENGGIGILANG</td>
-              <td className="px-6 py-4 text-gray-900">JAVA</td>
-              <td className="px-6 py-4 text-gray-900">SUMATERA</td>
-              <td className="px-6 py-4 text-gray-900">ROAD</td>
-            </tr>
-            <tr className="bg-white border-b  hover:bg-gray-50">
-              <th className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                SV526D
-              </th>
-              <td className="px-6 py-4 text-gray-900">6SV35-10481</td>
-              <td className="px-6 py-4 text-gray-900">4BG1-111302</td>
-              <td className="px-6 py-4 text-gray-900">EP</td>
-              <td className="px-6 py-4 text-gray-900">EQUIPINDO PERKASA</td>
-              <td className="px-6 py-4 text-gray-900">01-Feb-2016</td>
-              <td className="px-6 py-4 text-gray-900">PT SENGGIGILANG</td>
-              <td className="px-6 py-4 text-gray-900">JAVA</td>
-              <td className="px-6 py-4 text-gray-900">SUMATERA</td>
-              <td className="px-6 py-4 text-gray-900">ROAD</td>
-            </tr>
-            <tr className="bg-white border-b  hover:bg-gray-50">
-              <th className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                SV526D
-              </th>
-              <td className="px-6 py-4 text-gray-900">6SV35-10481</td>
-              <td className="px-6 py-4 text-gray-900">4BG1-111302</td>
-              <td className="px-6 py-4 text-gray-900">EP</td>
-              <td className="px-6 py-4 text-gray-900">EQUIPINDO PERKASA</td>
-              <td className="px-6 py-4 text-gray-900">01-Feb-2016</td>
-              <td className="px-6 py-4 text-gray-900">PT SENGGIGILANG</td>
-              <td className="px-6 py-4 text-gray-900">JAVA</td>
-              <td className="px-6 py-4 text-gray-900">SUMATERA</td>
-              <td className="px-6 py-4 text-gray-900">ROAD</td>
-            </tr>
-            <tr className="bg-white border-b  hover:bg-gray-50">
-              <th className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                SV526D
-              </th>
-              <td className="px-6 py-4 text-gray-900">6SV35-10481</td>
-              <td className="px-6 py-4 text-gray-900">4BG1-111302</td>
-              <td className="px-6 py-4 text-gray-900">EP</td>
-              <td className="px-6 py-4 text-gray-900">EQUIPINDO PERKASA</td>
-              <td className="px-6 py-4 text-gray-900">01-Feb-2016</td>
-              <td className="px-6 py-4 text-gray-900">PT SENGGIGILANG</td>
-              <td className="px-6 py-4 text-gray-900">JAVA</td>
-              <td className="px-6 py-4 text-gray-900">SUMATERA</td>
-              <td className="px-6 py-4 text-gray-900">ROAD</td>
-            </tr>
-          </tbody>
-        </table>
-        <nav
-          className="flex items-center flex-column flex-wrap md:flex-row justify-between pt-4 p-3"
-          aria-label="Table navigation"
-        >
-          <span className="text-sm font-normal text-gray-500 dark:text-gray-400 mb-4 md:mb-0 block w-full md:inline md:w-auto">
-            Showing{" "}
-            <span className="font-semibold text-gray-900 dark:text-white">
-              1-10
-            </span>{" "}
-            of{" "}
-            <span className="font-semibold text-gray-900 dark:text-white">
-              1000
+      <div className="px-6">
+        <div className="relative overflow-x-auto shadow-md sm:rounded-md">
+          <table className="w-full text-sm text-left rtl:text-right text-white">
+            <thead className="bg-gray-800">
+              <tr>
+                <th scope="col" className="px-6 py-3">
+                  Model/Tipe
+                </th>
+                <th scope="col" className="px-6 py-3">
+                  Serial Number
+                </th>
+                <th scope="col" className="px-6 py-3">
+                  Engine Number
+                </th>
+                <th scope="col" className="px-6 py-3">
+                  Distributor
+                </th>
+                <th scope="col" className="px-6 py-3">
+                  Dealer
+                </th>
+                <th scope="col" className="px-6 py-3">
+                  Delivery Date
+                </th>
+                <th scope="col" className="px-6 py-3">
+                  Customer
+                </th>
+                <th scope="col" className="px-6 py-3">
+                  Island
+                </th>
+                <th scope="col" className="px-6 py-3">
+                  Province
+                </th>
+                <th scope="col" className="px-6 py-3">
+                  Sector
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr className="bg-white border-b  hover:bg-gray-50">
+                <th className="px-6 py-4 font-normal text-gray-900">SV526D</th>
+                <td className="px-6 py-4 text-gray-900">6SV35-10481</td>
+                <td className="px-6 py-4 text-gray-900">4BG1-111302</td>
+                <td className="px-6 py-4 text-gray-900">EP</td>
+                <td className="px-6 py-4 text-gray-900">EQUIPINDO PERKASA</td>
+                <td className="px-6 py-4 text-gray-900">01-Feb-2016</td>
+                <td className="px-6 py-4 text-gray-900">PT SENGGIGILANG</td>
+                <td className="px-6 py-4 text-gray-900">JAVA</td>
+                <td className="px-6 py-4 text-gray-900">SUMATERA</td>
+                <td className="px-6 py-4 text-gray-900">ROAD</td>
+              </tr>
+              <tr className="bg-white border-b  hover:bg-gray-50">
+                <th className="px-6 py-4 font-normal text-gray-900">SV526D</th>
+                <td className="px-6 py-4 text-gray-900">6SV35-10481</td>
+                <td className="px-6 py-4 text-gray-900">4BG1-111302</td>
+                <td className="px-6 py-4 text-gray-900">EP</td>
+                <td className="px-6 py-4 text-gray-900">EQUIPINDO PERKASA</td>
+                <td className="px-6 py-4 text-gray-900">01-Feb-2016</td>
+                <td className="px-6 py-4 text-gray-900">PT SENGGIGILANG</td>
+                <td className="px-6 py-4 text-gray-900">JAVA</td>
+                <td className="px-6 py-4 text-gray-900">SUMATERA</td>
+                <td className="px-6 py-4 text-gray-900">ROAD</td>
+              </tr>
+              <tr className="bg-white border-b  hover:bg-gray-50">
+                <th className="px-6 py-4 font-normal text-gray-900">SV526D</th>
+                <td className="px-6 py-4 text-gray-900">6SV35-10481</td>
+                <td className="px-6 py-4 text-gray-900">4BG1-111302</td>
+                <td className="px-6 py-4 text-gray-900">EP</td>
+                <td className="px-6 py-4 text-gray-900">EQUIPINDO PERKASA</td>
+                <td className="px-6 py-4 text-gray-900">01-Feb-2016</td>
+                <td className="px-6 py-4 text-gray-900">PT SENGGIGILANG</td>
+                <td className="px-6 py-4 text-gray-900">JAVA</td>
+                <td className="px-6 py-4 text-gray-900">SUMATERA</td>
+                <td className="px-6 py-4 text-gray-900">ROAD</td>
+              </tr>
+              <tr className="bg-white border-b  hover:bg-gray-50">
+                <th className="px-6 py-4 font-normal text-gray-900">SV526D</th>
+                <td className="px-6 py-4 text-gray-900">6SV35-10481</td>
+                <td className="px-6 py-4 text-gray-900">4BG1-111302</td>
+                <td className="px-6 py-4 text-gray-900">EP</td>
+                <td className="px-6 py-4 text-gray-900">EQUIPINDO PERKASA</td>
+                <td className="px-6 py-4 text-gray-900">01-Feb-2016</td>
+                <td className="px-6 py-4 text-gray-900">PT SENGGIGILANG</td>
+                <td className="px-6 py-4 text-gray-900">JAVA</td>
+                <td className="px-6 py-4 text-gray-900">SUMATERA</td>
+                <td className="px-6 py-4 text-gray-900">ROAD</td>
+              </tr>
+              <tr className="bg-white border-b  hover:bg-gray-50">
+                <th className="px-6 py-4 font-normal text-gray-900">SV526D</th>
+                <td className="px-6 py-4 text-gray-900">6SV35-10481</td>
+                <td className="px-6 py-4 text-gray-900">4BG1-111302</td>
+                <td className="px-6 py-4 text-gray-900">EP</td>
+                <td className="px-6 py-4 text-gray-900">EQUIPINDO PERKASA</td>
+                <td className="px-6 py-4 text-gray-900">01-Feb-2016</td>
+                <td className="px-6 py-4 text-gray-900">PT SENGGIGILANG</td>
+                <td className="px-6 py-4 text-gray-900">JAVA</td>
+                <td className="px-6 py-4 text-gray-900">SUMATERA</td>
+                <td className="px-6 py-4 text-gray-900">ROAD</td>
+              </tr>
+              <tr className="bg-white border-b  hover:bg-gray-50">
+                <th className="px-6 py-4 font-normal text-gray-900">SV526D</th>
+                <td className="px-6 py-4 text-gray-900">6SV35-10481</td>
+                <td className="px-6 py-4 text-gray-900">4BG1-111302</td>
+                <td className="px-6 py-4 text-gray-900">EP</td>
+                <td className="px-6 py-4 text-gray-900">EQUIPINDO PERKASA</td>
+                <td className="px-6 py-4 text-gray-900">01-Feb-2016</td>
+                <td className="px-6 py-4 text-gray-900">PT SENGGIGILANG</td>
+                <td className="px-6 py-4 text-gray-900">JAVA</td>
+                <td className="px-6 py-4 text-gray-900">SUMATERA</td>
+                <td className="px-6 py-4 text-gray-900">ROAD</td>
+              </tr>
+              <tr className="bg-white border-b  hover:bg-gray-50">
+                <th className="px-6 py-4 font-normal text-gray-900">SV526D</th>
+                <td className="px-6 py-4 text-gray-900">6SV35-10481</td>
+                <td className="px-6 py-4 text-gray-900">4BG1-111302</td>
+                <td className="px-6 py-4 text-gray-900">EP</td>
+                <td className="px-6 py-4 text-gray-900">EQUIPINDO PERKASA</td>
+                <td className="px-6 py-4 text-gray-900">01-Feb-2016</td>
+                <td className="px-6 py-4 text-gray-900">PT SENGGIGILANG</td>
+                <td className="px-6 py-4 text-gray-900">JAVA</td>
+                <td className="px-6 py-4 text-gray-900">SUMATERA</td>
+                <td className="px-6 py-4 text-gray-900">ROAD</td>
+              </tr>
+              <tr className="bg-white border-b  hover:bg-gray-50">
+                <th className="px-6 py-4 font-normal text-gray-900">SV526D</th>
+                <td className="px-6 py-4 text-gray-900">6SV35-10481</td>
+                <td className="px-6 py-4 text-gray-900">4BG1-111302</td>
+                <td className="px-6 py-4 text-gray-900">EP</td>
+                <td className="px-6 py-4 text-gray-900">EQUIPINDO PERKASA</td>
+                <td className="px-6 py-4 text-gray-900">01-Feb-2016</td>
+                <td className="px-6 py-4 text-gray-900">PT SENGGIGILANG</td>
+                <td className="px-6 py-4 text-gray-900">JAVA</td>
+                <td className="px-6 py-4 text-gray-900">SUMATERA</td>
+                <td className="px-6 py-4 text-gray-900">ROAD</td>
+              </tr>
+              <tr className="bg-white border-b  hover:bg-gray-50">
+                <th className="px-6 py-4 font-normal text-gray-900">SV526D</th>
+                <td className="px-6 py-4 text-gray-900">6SV35-10481</td>
+                <td className="px-6 py-4 text-gray-900">4BG1-111302</td>
+                <td className="px-6 py-4 text-gray-900">EP</td>
+                <td className="px-6 py-4 text-gray-900">EQUIPINDO PERKASA</td>
+                <td className="px-6 py-4 text-gray-900">01-Feb-2016</td>
+                <td className="px-6 py-4 text-gray-900">PT SENGGIGILANG</td>
+                <td className="px-6 py-4 text-gray-900">JAVA</td>
+                <td className="px-6 py-4 text-gray-900">SUMATERA</td>
+                <td className="px-6 py-4 text-gray-900">ROAD</td>
+              </tr>
+              <tr className="bg-white border-b  hover:bg-gray-50">
+                <th className="px-6 py-4 font-normal text-gray-900">SV526D</th>
+                <td className="px-6 py-4 text-gray-900">6SV35-10481</td>
+                <td className="px-6 py-4 text-gray-900">4BG1-111302</td>
+                <td className="px-6 py-4 text-gray-900">EP</td>
+                <td className="px-6 py-4 text-gray-900">EQUIPINDO PERKASA</td>
+                <td className="px-6 py-4 text-gray-900">01-Feb-2016</td>
+                <td className="px-6 py-4 text-gray-900">PT SENGGIGILANG</td>
+                <td className="px-6 py-4 text-gray-900">JAVA</td>
+                <td className="px-6 py-4 text-gray-900">SUMATERA</td>
+                <td className="px-6 py-4 text-gray-900">ROAD</td>
+              </tr>
+            </tbody>
+          </table>
+          <nav
+            className="flex items-center flex-column flex-wrap md:flex-row justify-between pt-4 p-3"
+            aria-label="Table navigation"
+          >
+            <span className="text-sm font-normal text-gray-500  mb-4 md:mb-0 block w-full md:inline md:w-auto">
+              Showing <span className="font-semibold text-gray-900 ">1-10</span>{" "}
+              of <span className="font-semibold text-gray-900 ">1000</span>
             </span>
-          </span>
-          <ul className="inline-flex -space-x-px rtl:space-x-reverse text-sm h-8">
-            <li>
-              <a
-                href="#"
-                className="flex items-center justify-center px-3 h-8 ms-0 leading-tight text-gray-500 bg-white border border-gray-300 rounded-s-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
-              >
-                Previous
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
-              >
-                1
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
-              >
-                2
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                aria-current="page"
-                className="flex items-center justify-center px-3 h-8 text-blue-600 border border-gray-300 bg-blue-50 hover:bg-blue-100 hover:text-blue-700 dark:border-gray-700 dark:bg-gray-700 dark:text-white"
-              >
-                3
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
-              >
-                4
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
-              >
-                5
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 rounded-e-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
-              >
-                Next
-              </a>
-            </li>
-          </ul>
-        </nav>
+            <ul className="inline-flex -space-x-px rtl:space-x-reverse text-sm h-8">
+              <li>
+                <a
+                  href="#"
+                  className="flex items-center justify-center px-3 h-8 ms-0 leading-tight text-gray-500 bg-white border border-gray-300 rounded-s-lg hover:bg-gray-100 hover:text-gray-700 "
+                >
+                  Previous
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 "
+                >
+                  1
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 "
+                >
+                  2
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  aria-current="page"
+                  className="flex items-center justify-center px-3 h-8 text-blue-600 border border-gray-300 bg-blue-50 hover:bg-blue-100 hover:text-blue-700 dark:border-gray-700 dark:bg-gray-700 dark:text-white"
+                >
+                  3
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 "
+                >
+                  4
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 "
+                >
+                  5
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 rounded-e-lg hover:bg-gray-100 hover:text-gray-700 "
+                >
+                  Next
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </>
   );
