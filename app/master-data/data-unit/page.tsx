@@ -5,6 +5,7 @@ export default function DataUnit() {
         Master Data Unit
       </h1>
 
+      {/* Searching */}
       <div className="flex justify-end mb-5 px-6">
         <div className="relative">
           <div className="absolute inset-y-0 left-0 rtl:inset-r-0 rtl:right-0 flex items-center ps-3 pointer-events-none">
