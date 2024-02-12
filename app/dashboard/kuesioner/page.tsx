@@ -2,6 +2,7 @@
 
 import BarChart from "./BarChart";
 import { RadarChart } from "./RadarChart";
+import Suggestions from "./Suggestions";
 import Tabulation from "./Tabulation";
 
 export default function DashboardSurvey() {
@@ -29,6 +30,11 @@ export default function DashboardSurvey() {
         {/* Tabulation */}
         <div className="mb-4 rounded bg-gray-50">
           <Tabulation />
+        </div>
+
+        {/* Suggestions */}
+        <div className="mb-4 rounded bg-gray-50">
+          <Suggestions />
         </div>
       </div>
     </>
