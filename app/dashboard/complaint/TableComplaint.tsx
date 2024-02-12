@@ -5,7 +5,7 @@ export default function TableComplaint() {
   return (
     <>
       <div className="flex justify-center">
-        <div className="md:px-10 mt-12 w-full md:w-4/5">
+        <div className="md:px-20 mt-12 w-full">
           <div className="relative overflow-x-auto shadow-md sm:rounded-md">
             <table className="w-full text-sm text-left rtl:text-right text-white">
               <thead className="bg-gray-800">
