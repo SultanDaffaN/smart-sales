@@ -65,7 +65,7 @@ export default function Tabulation() {
               <span className="col-span-11 row-span-2 p-2">
                 <span className="font-semibold">Mutu Produk</span>
                 <br />
-                <span className="italic">Product's Quality</span>
+                <span className="italic">Product&apos;s Quality</span>
               </span>
 
               <span className="border-l-2 border-b-2 border-gray-800 flex justify-center items-center">

@@ -10,7 +10,7 @@ export default function DashboardComplaint() {
   return (
     <>
       <h1 className="text-3xl text-center font-bold text-black mt-5">
-        Dashboard Customer Complaint
+        Dashboard Customer Complaints
       </h1>
       <div className="flex justify-end px-8 mt-20 ">
         <div

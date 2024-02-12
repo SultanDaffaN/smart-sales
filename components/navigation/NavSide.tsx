@@ -91,11 +91,19 @@ export default function SideNav() {
                     onClick={toggleUserMenu}
                   >
                     <span className="sr-only">Open user menu</span>
-                    <img
-                      className="w-8 h-8 rounded-full"
-                      src="https://flowbite.com/docs/images/people/profile-picture-5.jpg"
-                      alt="user photo"
-                    />
+                    <svg
+                      className="w-8 h-8 text-gray-800 dark:text-white"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M12 20a8 8 0 0 1-5-1.8v-.6c0-1.8 1.5-3.3 3.3-3.3h3.4c1.8 0 3.3 1.5 3.3 3.3v.6a8 8 0 0 1-5 1.8ZM2 12a10 10 0 1 1 10 10A10 10 0 0 1 2 12Zm10-5a3.3 3.3 0 0 0-3.3 3.3c0 1.7 1.5 3.2 3.3 3.2 1.8 0 3.3-1.5 3.3-3.3C15.3 8.6 13.8 7 12 7Z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
                   </button>
                 </div>
                 {userMenuOpen && (
@@ -213,7 +221,7 @@ export default function SideNav() {
               >
                 <li>
                   <a
-                    href="/dashboard/complaint"
+                    href="/dashboard/complaints"
                     className="flex items-center w-full p-2  transition duration-75 rounded-lg pl-11 group text-white hover:bg-gray-700"
                   >
                     Complaints

@@ -2,17 +2,15 @@ import React from "react";
 import Highcharts from "highcharts";
 import HighchartsReact from "highcharts-react-official";
 import highchartsMap from "highcharts/modules/map";
+import HighchartsExporting from "highcharts/modules/exporting";
 import proj4 from "proj4";
 import mapDataIE from "@highcharts/map-collection/countries/id/id-all.geo.json";
-import exportData from "highcharts/modules/export-data";
-import exporting from "highcharts/modules/exporting";
-import fullscreen from "highcharts/modules/full-screen";
 import { useRouter } from "next/navigation";
 
-exporting(Highcharts);
-exportData(Highcharts);
-fullscreen(Highcharts);
-highchartsMap(Highcharts);
+if (typeof Highcharts === "object") {
+  HighchartsExporting(Highcharts);
+  highchartsMap(Highcharts);
+}
 
 if (typeof window !== "undefined") {
   window.proj4 = window.proj4 || proj4;
@@ -27,20 +25,6 @@ export default function MapChart() {
     },
     credits: {
       enabled: false,
-    },
-    exporting: {
-      enabled: true,
-      buttons: {
-        menuItems: [
-          "viewFullscreen",
-          "printChart",
-          "separator",
-          "downloadPNG",
-          "downloadJPEG",
-          "downloadPDF",
-          "downloadSVG",
-        ],
-      },
     },
     mapNavigation: {
       enabled: false,
@@ -58,7 +42,9 @@ export default function MapChart() {
       series: {
         events: {
           click: function (e: any) {
-            router.push(`/complaint/${e.point.serialNumber}`);
+            if (e.point && e.point.serialNumber) {
+              router.push(`/complaint/${e.point.serialNumber}`);
+            }
           },
         },
       },
